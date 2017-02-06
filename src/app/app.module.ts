@@ -7,6 +7,11 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent} from './dashboard.component';
+import { PaymentComponent } from './payment.component';
+import { RefundComponent } from './refund.component';
+import { SettingsComponent } from './settings.component';
+import { NotesComponent } from './notes.component';
+import { ReminderComponent } from './reminder.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -14,7 +19,12 @@ import { AppRoutingModule }     from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    PaymentComponent,
+    RefundComponent,
+    SettingsComponent,
+    NotesComponent,
+    ReminderComponent
   ],
   imports: [
     BrowserModule,
